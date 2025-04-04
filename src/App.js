@@ -146,79 +146,40 @@ function App() {
         </div>
       </div>
 
-      <div className="p-4 bg-slate-100">
-        <div className="bg-white p-4 rounded-2xl">
-          <div className="flex gap-2">
-          <div className="flex gap-2 h-[40px] w-[40px] items-center">
-            <img src={family} alt="hey" />
-            
-          </div>
-          <div>
-          <h1 className="text-[20px] mt-3">Өрхийн гишүүдийн мэдээлэл</h1>
-          </div>
-          </div>
-          <div className="text-[18px]">
-            Ам бүлийн тоо: <span className="text-[#2b8fec]">1</span>
-          </div>
-          <div className="text-[21px]">
-            БАТХҮҮ <span className="text-[#2b8fec]">ДАВААЦЭРЭН</span>
-          </div>
-        </div>
+    <div className="p-4 bg-slate-100">
+  <div className="bg-white p-4 rounded-2xl">
+    <div className="flex gap-2">
+      <div className="flex gap-2 h-[50px] w-[50px] items-center">
+        <img src={SkillIcon} alt="skills" />
       </div>
-      <div className="p-4 bg-slate-100">
-        <div className="bg-white p-4 rounded-2xl">
-        <div className="flex gap-2">
-        <div className="flex gap-2 h-[50px] w-[50px] items-center">
-            <img src={car} alt="hey" />
-          </div>
-          <div>
-            <h1 className="text-[20px] mt-3">Тээвийн хэрэгсэл</h1>
-          </div>
-        </div>
-          <div className=" border-l-4 rounded-xl border-[#2b8fec] p-4 bg-[#ECF3FF] mt-2">
-            <div className="flex gap-4">
-              <PiWarningCircle size={35} className="text-[#2b8fec]" />
-              <div>Таны нэр дээр тээвийн хэрэгсэл бүртгэлгүй байна.</div>
-            </div>
-          </div>
-        </div>
+      <div>
+        <h1 className="text-[20px] mt-3">Миний мэдлэг, чадвар</h1>
       </div>
-      <div className="p-4 bg-slate-100">
-        <div className="bg-white p-4 rounded-2xl">
-          <div className="flex gap-2 h-[50px] w-[50px] items-center">
-            <img src={Build} alt="hey" />
-            <h1 className="text-[20px]">Компаниуд</h1>
-          </div>
-          <div className=" border-l-4 rounded-xl border-[#2b8fec] p-4 bg-[#ECF3FF] mt-2">
-            <div className="flex gap-4">
-              <PiWarningCircle size={35} className="text-[#2b8fec]" />
-              <div>Таны нэр дээр компани бүртгэлгүй байна.</div>
-            </div>
-          </div>
-        </div>
+    </div>
+    <div className="mt-4 space-y-2 text-[16px]">
+      <div>
+        ✅ <span className="font-semibold text-[#2b8fec]">Backend:</span> Node.js, Express.js, MongoDB
       </div>
-      <div className="p-4 bg-slate-100">
-        <div className="bg-white p-4 rounded-2xl">
-          <div className="flex gap-2">
-          <div className="flex gap-2 h-[60px] w-[60px] items-center">
-            <img src={UlHudluh} alt="hey" />
-          </div>
-          <div>
-            <h1 className="text-[20px] mt-4">Үл хөдлөх хөрөнгө</h1>
-            </div>
-          </div>
-          <div className=" border-[1px] rounded-xl mt-2 p-2 px-4">
-            <div className="flex flex-col">
-              <h1 className="text-[18px] text-[#0068CC] font-medium">
-                Үл хөдлөх (Y1713000180)
-              </h1>
-              <h1 className="font-medium text-[#012468] text-[15px]">
-                Хөвсгөл Улаан-Уул сум 5-р баг, Төгөл 3 гудамж, 8 тоот
-              </h1>
-            </div>
-          </div>
-        </div>
+      <div>
+        ✅ <span className="font-semibold text-[#2b8fec]">Frontend:</span> HTML, CSS, TailwindCSS, React
       </div>
+      <div>
+        ✅ <span className="font-semibold text-[#2b8fec]">UI Framework:</span> Shadcn/UI, DaisyUI
+      </div>
+      <div>
+        ✅ <span className="font-semibold text-[#2b8fec]">Сургалт, туршлага:</span> Их Засаг Их Сургуулийн 3-р курс, лабораторийн ажилд jQuery ашигласан
+      </div>
+      <div>
+        ✅ <span className="font-semibold text-[#2b8fec]">Нэмэлт:</span> REST API зохиох, хэрэглэгчийн мэдээлэл хадгалах, authentication
+      </div>
+      <div>
+        📧 <span className="font-semibold text-[#2b8fec]">Холбогдох:</span> ddavkahlka@gmail.com
+      </div>
+    </div>
+  </div>
+</div>
+
+         
       {modal ? (
         <div className="fixed top-0 w-full h-full flex items-center justify-center z-20">
           <div
