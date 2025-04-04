@@ -180,7 +180,7 @@ function App() {
 </div>
 
          
-      {modal ? (
+       {modal ? (
         <div className="fixed top-0 w-full h-full flex items-center justify-center z-20">
           <div
             onClick={handleModal}
